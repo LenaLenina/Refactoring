@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_InheritToDelegation_Before", "InheritToDelegation\001_InheritToDelegation_Before.csproj", "{56D4BC8C-1EA6-4FA0-9F14-1E0E5FCD42CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_InheritToDelegation_After", "InheritToDelegation2\002_InheritToDelegation_After.csproj", "{D792C0EC-89D4-479C-8138-5B98B6B423F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D4BC8C-1EA6-4FA0-9F14-1E0E5FCD42CE}.Debug|x86.ActiveCfg = Debug|x86
+		{56D4BC8C-1EA6-4FA0-9F14-1E0E5FCD42CE}.Debug|x86.Build.0 = Debug|x86
+		{56D4BC8C-1EA6-4FA0-9F14-1E0E5FCD42CE}.Release|x86.ActiveCfg = Release|x86
+		{56D4BC8C-1EA6-4FA0-9F14-1E0E5FCD42CE}.Release|x86.Build.0 = Release|x86
+		{D792C0EC-89D4-479C-8138-5B98B6B423F7}.Debug|x86.ActiveCfg = Debug|x86
+		{D792C0EC-89D4-479C-8138-5B98B6B423F7}.Debug|x86.Build.0 = Debug|x86
+		{D792C0EC-89D4-479C-8138-5B98B6B423F7}.Release|x86.ActiveCfg = Release|x86
+		{D792C0EC-89D4-479C-8138-5B98B6B423F7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

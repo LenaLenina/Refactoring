@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_UnidirectToBidirect_Before", "UnidirectToBidirect\001_UnidirectToBidirect_Before.csproj", "{AFCFC06A-49D8-4724-A080-106272DA1201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_UnidirectToBidirect_After", "UnidirectToBidirect2\002_UnidirectToBidirect_After.csproj", "{E19D4681-09B0-47FA-9918-7EB87A7BC62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_UnidirectToBidirect_After", "UnidirectToBidirect3\003_UnidirectToBidirect_After.csproj", "{A77E816C-1027-4321-90EC-CAE5922321A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCFC06A-49D8-4724-A080-106272DA1201}.Debug|x86.ActiveCfg = Debug|x86
+		{AFCFC06A-49D8-4724-A080-106272DA1201}.Debug|x86.Build.0 = Debug|x86
+		{AFCFC06A-49D8-4724-A080-106272DA1201}.Release|x86.ActiveCfg = Release|x86
+		{AFCFC06A-49D8-4724-A080-106272DA1201}.Release|x86.Build.0 = Release|x86
+		{E19D4681-09B0-47FA-9918-7EB87A7BC62C}.Debug|x86.ActiveCfg = Debug|x86
+		{E19D4681-09B0-47FA-9918-7EB87A7BC62C}.Debug|x86.Build.0 = Debug|x86
+		{E19D4681-09B0-47FA-9918-7EB87A7BC62C}.Release|x86.ActiveCfg = Release|x86
+		{E19D4681-09B0-47FA-9918-7EB87A7BC62C}.Release|x86.Build.0 = Release|x86
+		{A77E816C-1027-4321-90EC-CAE5922321A0}.Debug|x86.ActiveCfg = Debug|x86
+		{A77E816C-1027-4321-90EC-CAE5922321A0}.Debug|x86.Build.0 = Debug|x86
+		{A77E816C-1027-4321-90EC-CAE5922321A0}.Release|x86.ActiveCfg = Release|x86
+		{A77E816C-1027-4321-90EC-CAE5922321A0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

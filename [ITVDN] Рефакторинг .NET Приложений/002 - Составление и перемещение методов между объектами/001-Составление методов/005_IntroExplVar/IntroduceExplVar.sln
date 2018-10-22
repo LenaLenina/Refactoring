@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_IntroduceExplVar_Before", "IntroduceExplVar\001_IntroduceExplVar_Before.csproj", "{453C3E27-8A11-4D07-AD59-BF6B13B3F6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_IntroduceExplVar_After", "IntroduceExplVar2\002_IntroduceExplVar_After.csproj", "{BD2BDEC5-772E-4712-8FC3-FF094C64740B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_IntroduceExplVar_After", "IntroduceExplVar3\003_IntroduceExplVar_After.csproj", "{7A1BBBAB-6A01-4730-AC37-899CC68AB5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_ExtractMethod_After_001", "ExtractMethod\004_ExtractMethod_After_001.csproj", "{F40F7972-79A5-4D06-AFD5-FD3105AEE456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453C3E27-8A11-4D07-AD59-BF6B13B3F6AB}.Debug|x86.ActiveCfg = Debug|x86
+		{453C3E27-8A11-4D07-AD59-BF6B13B3F6AB}.Debug|x86.Build.0 = Debug|x86
+		{453C3E27-8A11-4D07-AD59-BF6B13B3F6AB}.Release|x86.ActiveCfg = Release|x86
+		{453C3E27-8A11-4D07-AD59-BF6B13B3F6AB}.Release|x86.Build.0 = Release|x86
+		{BD2BDEC5-772E-4712-8FC3-FF094C64740B}.Debug|x86.ActiveCfg = Debug|x86
+		{BD2BDEC5-772E-4712-8FC3-FF094C64740B}.Debug|x86.Build.0 = Debug|x86
+		{BD2BDEC5-772E-4712-8FC3-FF094C64740B}.Release|x86.ActiveCfg = Release|x86
+		{BD2BDEC5-772E-4712-8FC3-FF094C64740B}.Release|x86.Build.0 = Release|x86
+		{7A1BBBAB-6A01-4730-AC37-899CC68AB5FF}.Debug|x86.ActiveCfg = Debug|x86
+		{7A1BBBAB-6A01-4730-AC37-899CC68AB5FF}.Debug|x86.Build.0 = Debug|x86
+		{7A1BBBAB-6A01-4730-AC37-899CC68AB5FF}.Release|x86.ActiveCfg = Release|x86
+		{7A1BBBAB-6A01-4730-AC37-899CC68AB5FF}.Release|x86.Build.0 = Release|x86
+		{F40F7972-79A5-4D06-AFD5-FD3105AEE456}.Debug|x86.ActiveCfg = Debug|x86
+		{F40F7972-79A5-4D06-AFD5-FD3105AEE456}.Debug|x86.Build.0 = Debug|x86
+		{F40F7972-79A5-4D06-AFD5-FD3105AEE456}.Release|x86.ActiveCfg = Release|x86
+		{F40F7972-79A5-4D06-AFD5-FD3105AEE456}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

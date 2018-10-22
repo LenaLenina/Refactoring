@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_InlineTemp_Before", "InlineTemp\001_InlineTemp_Before.csproj", "{6C140335-3D93-499E-8799-F77721AE6D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_InlineTemp_After", "InlineTemp2\002_InlineTemp_After.csproj", "{5F4E1233-A34F-499D-921D-F5A85D201A63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C140335-3D93-499E-8799-F77721AE6D05}.Debug|x86.ActiveCfg = Debug|x86
+		{6C140335-3D93-499E-8799-F77721AE6D05}.Debug|x86.Build.0 = Debug|x86
+		{6C140335-3D93-499E-8799-F77721AE6D05}.Release|x86.ActiveCfg = Release|x86
+		{6C140335-3D93-499E-8799-F77721AE6D05}.Release|x86.Build.0 = Release|x86
+		{5F4E1233-A34F-499D-921D-F5A85D201A63}.Debug|x86.ActiveCfg = Debug|x86
+		{5F4E1233-A34F-499D-921D-F5A85D201A63}.Debug|x86.Build.0 = Debug|x86
+		{5F4E1233-A34F-499D-921D-F5A85D201A63}.Release|x86.ActiveCfg = Release|x86
+		{5F4E1233-A34F-499D-921D-F5A85D201A63}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

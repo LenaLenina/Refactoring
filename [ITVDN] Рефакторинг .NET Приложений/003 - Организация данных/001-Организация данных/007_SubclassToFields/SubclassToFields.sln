@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_SubclassToFields_Before", "SubclassToFields\001_SubclassToFields_Before.csproj", "{B05AAB85-6D0F-4E21-B304-1D70DAD14495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_SubclassToFields_After", "SubclassToFields2\002_SubclassToFields_After.csproj", "{394728E2-1424-4D5E-ADA2-B31594B58CDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05AAB85-6D0F-4E21-B304-1D70DAD14495}.Debug|x86.ActiveCfg = Debug|x86
+		{B05AAB85-6D0F-4E21-B304-1D70DAD14495}.Debug|x86.Build.0 = Debug|x86
+		{B05AAB85-6D0F-4E21-B304-1D70DAD14495}.Release|x86.ActiveCfg = Release|x86
+		{B05AAB85-6D0F-4E21-B304-1D70DAD14495}.Release|x86.Build.0 = Release|x86
+		{394728E2-1424-4D5E-ADA2-B31594B58CDA}.Debug|x86.ActiveCfg = Debug|x86
+		{394728E2-1424-4D5E-ADA2-B31594B58CDA}.Debug|x86.Build.0 = Debug|x86
+		{394728E2-1424-4D5E-ADA2-B31594B58CDA}.Release|x86.ActiveCfg = Release|x86
+		{394728E2-1424-4D5E-ADA2-B31594B58CDA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

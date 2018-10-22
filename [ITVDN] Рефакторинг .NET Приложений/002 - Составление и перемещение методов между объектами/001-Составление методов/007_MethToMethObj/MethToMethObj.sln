@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MethToMethObj_Before", "MethToMethObj\001_MethToMethObj_Before.csproj", "{E91964D1-66CF-4D1D-8702-25BE2127AA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_MethToMethObj_After", "MethToMethObj2\002_MethToMethObj_After.csproj", "{640F7C89-2E8F-4D55-B3EA-4F2554D70BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_MethToMethObj_After", "MethToMethObj3\003_MethToMethObj_After.csproj", "{8632D8E3-51D7-40F2-BF80-A86419FA7BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E91964D1-66CF-4D1D-8702-25BE2127AA34}.Debug|x86.ActiveCfg = Debug|x86
+		{E91964D1-66CF-4D1D-8702-25BE2127AA34}.Debug|x86.Build.0 = Debug|x86
+		{E91964D1-66CF-4D1D-8702-25BE2127AA34}.Release|x86.ActiveCfg = Release|x86
+		{E91964D1-66CF-4D1D-8702-25BE2127AA34}.Release|x86.Build.0 = Release|x86
+		{640F7C89-2E8F-4D55-B3EA-4F2554D70BDF}.Debug|x86.ActiveCfg = Debug|x86
+		{640F7C89-2E8F-4D55-B3EA-4F2554D70BDF}.Debug|x86.Build.0 = Debug|x86
+		{640F7C89-2E8F-4D55-B3EA-4F2554D70BDF}.Release|x86.ActiveCfg = Release|x86
+		{640F7C89-2E8F-4D55-B3EA-4F2554D70BDF}.Release|x86.Build.0 = Release|x86
+		{8632D8E3-51D7-40F2-BF80-A86419FA7BA2}.Debug|x86.ActiveCfg = Debug|x86
+		{8632D8E3-51D7-40F2-BF80-A86419FA7BA2}.Debug|x86.Build.0 = Debug|x86
+		{8632D8E3-51D7-40F2-BF80-A86419FA7BA2}.Release|x86.ActiveCfg = Release|x86
+		{8632D8E3-51D7-40F2-BF80-A86419FA7BA2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

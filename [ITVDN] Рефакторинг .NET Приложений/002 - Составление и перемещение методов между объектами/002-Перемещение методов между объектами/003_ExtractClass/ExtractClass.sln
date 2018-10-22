@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ExtractClass_Before", "ExtractClass\001_ExtractClass_Before.csproj", "{CB40A218-CED8-468D-8699-3F2132BE2733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ExtractClass_After", "ExtractClass2\002_ExtractClass_After.csproj", "{1780FF60-0B13-4E45-AEBB-B04D2B5E7863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_ExtractClass_After", "ExtractClass3\003_ExtractClass_After.csproj", "{9B6B69B1-9EA8-4933-8816-FAD19E54688B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB40A218-CED8-468D-8699-3F2132BE2733}.Debug|x86.ActiveCfg = Debug|x86
+		{CB40A218-CED8-468D-8699-3F2132BE2733}.Debug|x86.Build.0 = Debug|x86
+		{CB40A218-CED8-468D-8699-3F2132BE2733}.Release|x86.ActiveCfg = Release|x86
+		{CB40A218-CED8-468D-8699-3F2132BE2733}.Release|x86.Build.0 = Release|x86
+		{1780FF60-0B13-4E45-AEBB-B04D2B5E7863}.Debug|x86.ActiveCfg = Debug|x86
+		{1780FF60-0B13-4E45-AEBB-B04D2B5E7863}.Debug|x86.Build.0 = Debug|x86
+		{1780FF60-0B13-4E45-AEBB-B04D2B5E7863}.Release|x86.ActiveCfg = Release|x86
+		{1780FF60-0B13-4E45-AEBB-B04D2B5E7863}.Release|x86.Build.0 = Release|x86
+		{9B6B69B1-9EA8-4933-8816-FAD19E54688B}.Debug|x86.ActiveCfg = Debug|x86
+		{9B6B69B1-9EA8-4933-8816-FAD19E54688B}.Debug|x86.Build.0 = Debug|x86
+		{9B6B69B1-9EA8-4933-8816-FAD19E54688B}.Release|x86.ActiveCfg = Release|x86
+		{9B6B69B1-9EA8-4933-8816-FAD19E54688B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

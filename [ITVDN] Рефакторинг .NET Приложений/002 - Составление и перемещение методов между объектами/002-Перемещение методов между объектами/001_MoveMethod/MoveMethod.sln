@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MoveMethod_Before", "MoveMethod\001_MoveMethod_Before.csproj", "{0A2E3A7B-D236-4FB7-B7B1-A136FA8E3E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_MoveMethod_After", "MoveMethod2\002_MoveMethod_After.csproj", "{4D13E1DE-C6FB-4F86-8BEB-4BD4C4D2615C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_MoveMethod_After", "MoveMethod3\003_MoveMethod_After.csproj", "{1FAC517E-9FE9-4612-9232-F67231830805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2E3A7B-D236-4FB7-B7B1-A136FA8E3E2F}.Debug|x86.ActiveCfg = Debug|x86
+		{0A2E3A7B-D236-4FB7-B7B1-A136FA8E3E2F}.Debug|x86.Build.0 = Debug|x86
+		{0A2E3A7B-D236-4FB7-B7B1-A136FA8E3E2F}.Release|x86.ActiveCfg = Release|x86
+		{0A2E3A7B-D236-4FB7-B7B1-A136FA8E3E2F}.Release|x86.Build.0 = Release|x86
+		{4D13E1DE-C6FB-4F86-8BEB-4BD4C4D2615C}.Debug|x86.ActiveCfg = Debug|x86
+		{4D13E1DE-C6FB-4F86-8BEB-4BD4C4D2615C}.Debug|x86.Build.0 = Debug|x86
+		{4D13E1DE-C6FB-4F86-8BEB-4BD4C4D2615C}.Release|x86.ActiveCfg = Release|x86
+		{4D13E1DE-C6FB-4F86-8BEB-4BD4C4D2615C}.Release|x86.Build.0 = Release|x86
+		{1FAC517E-9FE9-4612-9232-F67231830805}.Debug|x86.ActiveCfg = Debug|x86
+		{1FAC517E-9FE9-4612-9232-F67231830805}.Debug|x86.Build.0 = Debug|x86
+		{1FAC517E-9FE9-4612-9232-F67231830805}.Release|x86.ActiveCfg = Release|x86
+		{1FAC517E-9FE9-4612-9232-F67231830805}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

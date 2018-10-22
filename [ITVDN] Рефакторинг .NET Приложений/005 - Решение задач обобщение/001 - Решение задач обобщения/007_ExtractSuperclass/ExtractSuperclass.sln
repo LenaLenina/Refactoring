@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ExtractSuperclass_Before", "ExtractSuperclass\001_ExtractSuperclass_Before.csproj", "{675B6489-169B-4261-B552-59AE97DFC342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ExtractSuperclass_After", "ExtractSuperclass2\002_ExtractSuperclass_After.csproj", "{4D343B10-D325-47F7-BFA9-DE5C4F1BD22B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675B6489-169B-4261-B552-59AE97DFC342}.Debug|x86.ActiveCfg = Debug|x86
+		{675B6489-169B-4261-B552-59AE97DFC342}.Debug|x86.Build.0 = Debug|x86
+		{675B6489-169B-4261-B552-59AE97DFC342}.Release|x86.ActiveCfg = Release|x86
+		{675B6489-169B-4261-B552-59AE97DFC342}.Release|x86.Build.0 = Release|x86
+		{4D343B10-D325-47F7-BFA9-DE5C4F1BD22B}.Debug|x86.ActiveCfg = Debug|x86
+		{4D343B10-D325-47F7-BFA9-DE5C4F1BD22B}.Debug|x86.Build.0 = Debug|x86
+		{4D343B10-D325-47F7-BFA9-DE5C4F1BD22B}.Release|x86.ActiveCfg = Release|x86
+		{4D343B10-D325-47F7-BFA9-DE5C4F1BD22B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d9cd7da2-971d-4667-bb44-ac2fc13bfdf1" name="UMLClassDiagram" linkedPackageId="06c8d041-aba4-440f-9be4-ea554e71ad7d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b1920d16-f6c9-4cb4-9290-201c0bc052d3">
+      <profileInstance Id="144583d2-b8df-49be-8953-9e39b9bb99c9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="335274fe-a0a3-4aec-9168-108e624a39ff">
+      <profileInstance Id="9eb368d9-1173-4235-93ce-eeb431ebbcff" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="220141c5-d68b-4243-8144-24c8ca835042" name="Movie" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac9de74d-4a3a-4c00-bd94-2fae0e90b228" />
+        <ownedAttributesInternal>
+          <property Id="9ca149d0-08e2-4d25-a6a7-8e5a40038bbd" name="priceCode" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4fe0c01-a9a6-4d7e-afaf-173cad137c8a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6f72719b-3a30-4a61-bb8f-c3ffb2c1a2f9" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="336d9b47-a0eb-457e-a4ee-62bcfabdbe27" name="Rental" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="00173641-2f4a-47c1-bc07-e6f953d2e8ea" />
+        <targetEnds>
+          <association Id="7ba8ef7d-be23-442e-a9b0-c1c2b7dd05da" isDerived="false" sourceEndRoleName="Rental" targetEndRoleName="Movie" isLeaf="false" isAbstract="false">
+            <classMoniker Id="220141c5-d68b-4243-8144-24c8ca835042" LastKnownName="Movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="771a1ae3-d7c2-40ba-92c2-8f2514577011" name="Rental" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="a02493a1-df0a-4597-b4f4-514b2bddea60" name="Lower" value="*">
+                      <elementDefinition Id="5fb1751b-c754-4cd4-b64e-b6b95d5129e4" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="02b0a0da-33cb-42c3-a51a-9f9f2722b33f" name="Upper" value="*">
+                      <elementDefinition Id="437e5541-9bd0-48eb-a878-6be7dd29bfcf" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="dbb0b9af-3536-4b83-92cf-0d5d3d1c8424" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0783f947-f1ea-4e2a-954d-7c5b702593aa" name="Movie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0e097427-2244-43cb-94ff-1812e9c8333e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="19a7f2f3-c8fd-4553-bad1-e4656e07c984" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="dbd210e1-253a-4ca8-bfe6-7b8d9903da56" name="daysRented" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f9339577-f085-4c3f-ba3e-41b0ebda99c6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6f72719b-3a30-4a61-bb8f-c3ffb2c1a2f9" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dcfb4ee8-6e62-45bd-a7c3-a171c3dc8195" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3344fcea-d06d-4425-be93-7a0252e4ea8e" />
+        <targetEnds>
+          <association Id="ac873308-10ab-4a69-a467-13d3b660f33d" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Rental" isLeaf="false" isAbstract="false">
+            <classMoniker Id="336d9b47-a0eb-457e-a4ee-62bcfabdbe27" LastKnownName="Rental" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3a5f0ae-7397-4807-9d4e-c21ba5184a93" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1808b4e7-52b2-41de-b27d-dd69bdef2222" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3e1c052c-041b-4ce7-bf64-492a2731e015" name="Rental" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="65254e9c-1bc6-4089-9813-92b79fe7545b" name="Lower" value="*">
+                      <elementDefinition Id="45b4947e-d48c-4114-b625-fb181ed7d52a" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="4b17a350-9448-4eed-9fb9-38551f8c32f8" name="Upper" value="*">
+                      <elementDefinition Id="42919cc9-4592-4d5e-a2c2-6bd2973e2a10" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="6c7894e8-5ddf-45a6-b25a-e3732ddb6078" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d733f435-7bd2-4494-b7e8-e88fb4ec1886" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="33f9dc54-0d4c-47f8-a82d-0ba217d71e67" name="Statement" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7d6f0a20-f830-4a5e-829f-5b6b5180683b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d2cd3ac5-38ae-4a27-b9fc-79b2f063f033" direction="Return" isUnique="false">
+                  <elementDefinition Id="39798b9d-b992-40b6-9ebb-a268f789410a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d495bd1d-d8a3-408e-9835-fd87c44a2732" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="6f72719b-3a30-4a61-bb8f-c3ffb2c1a2f9" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="034e97c1-350c-4fe2-9900-37c301521b1f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d495bd1d-d8a3-408e-9835-fd87c44a2732" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="bf3d8a13-7d25-479b-baac-ad40e6e84b8d" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="06c8d041-aba4-440f-9be4-ea554e71ad7d" name="ModelingRefactoring">
+    <elementDefinition Id="14ca5be3-80cc-4c9e-8cab-f36b8fbf45be" />
+  </package>
+</logicalClassDesignerModel>

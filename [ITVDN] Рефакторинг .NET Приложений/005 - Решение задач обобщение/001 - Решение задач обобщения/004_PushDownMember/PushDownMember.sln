@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_PushDownMember_Before", "PushDownMethod\001_PushDownMember_Before.csproj", "{60097248-F429-431F-BB2D-A84BFB22AE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PushDownMember_After", "PushDownMethod2\002_PushDownMember_After.csproj", "{DEBFAECE-9D41-497B-B5CE-90FDFE0362F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60097248-F429-431F-BB2D-A84BFB22AE11}.Debug|x86.ActiveCfg = Debug|x86
+		{60097248-F429-431F-BB2D-A84BFB22AE11}.Debug|x86.Build.0 = Debug|x86
+		{60097248-F429-431F-BB2D-A84BFB22AE11}.Release|x86.ActiveCfg = Release|x86
+		{60097248-F429-431F-BB2D-A84BFB22AE11}.Release|x86.Build.0 = Release|x86
+		{DEBFAECE-9D41-497B-B5CE-90FDFE0362F2}.Debug|x86.ActiveCfg = Debug|x86
+		{DEBFAECE-9D41-497B-B5CE-90FDFE0362F2}.Debug|x86.Build.0 = Debug|x86
+		{DEBFAECE-9D41-497B-B5CE-90FDFE0362F2}.Release|x86.ActiveCfg = Release|x86
+		{DEBFAECE-9D41-497B-B5CE-90FDFE0362F2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

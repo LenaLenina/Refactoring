@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_PullUpMethod_Before", "PullUpMethod\001_PullUpMethod_Before.csproj", "{A2C132F4-F2C0-4AF8-A362-2417DC33E64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PullUpMethod_After", "PullUpMethod2\002_PullUpMethod_After.csproj", "{98A51CA9-FEC0-4393-A4E8-D39D7781E4A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C132F4-F2C0-4AF8-A362-2417DC33E64D}.Debug|x86.ActiveCfg = Debug|x86
+		{A2C132F4-F2C0-4AF8-A362-2417DC33E64D}.Debug|x86.Build.0 = Debug|x86
+		{A2C132F4-F2C0-4AF8-A362-2417DC33E64D}.Release|x86.ActiveCfg = Release|x86
+		{A2C132F4-F2C0-4AF8-A362-2417DC33E64D}.Release|x86.Build.0 = Release|x86
+		{98A51CA9-FEC0-4393-A4E8-D39D7781E4A1}.Debug|x86.ActiveCfg = Debug|x86
+		{98A51CA9-FEC0-4393-A4E8-D39D7781E4A1}.Debug|x86.Build.0 = Debug|x86
+		{98A51CA9-FEC0-4393-A4E8-D39D7781E4A1}.Release|x86.ActiveCfg = Release|x86
+		{98A51CA9-FEC0-4393-A4E8-D39D7781E4A1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

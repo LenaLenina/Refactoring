@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MethodExtraction_Before", "Refactoring\001_MethodExtraction_Before.csproj", "{B95EF5BB-6C4C-463D-ADBC-1811654D14BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_MethodExtraction_After", "Refactoring2\002_MethodExtraction_After.csproj", "{9C187DB5-DE5D-4F4A-89A4-0CE7FF3965FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_MethodExtraction_After", "Refactoring3\003_MethodExtraction_After.csproj", "{039CED31-B9D2-46F0-8FE3-93D2A26EC48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_MethodExtraction_After", "Refactoring4\004_MethodExtraction_After.csproj", "{88C160B6-58F0-4384-BE62-39D31A8C5287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_MethodExtraction_Before", "Refactoring5\005_MethodExtraction_Before.csproj", "{CBB3877C-219F-4CB2-A907-9A28F97CDDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_MethodExtraction_After", "Refactoring6\006_MethodExtraction_After.csproj", "{BDDE7D0B-505E-4E97-B4E8-F467283376D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_MethodExtraction_After", "Refactoring7\007_MethodExtraction_After.csproj", "{BFA40A83-C658-4442-90E7-49DC5FCDE2C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95EF5BB-6C4C-463D-ADBC-1811654D14BB}.Debug|x86.ActiveCfg = Debug|x86
+		{B95EF5BB-6C4C-463D-ADBC-1811654D14BB}.Debug|x86.Build.0 = Debug|x86
+		{B95EF5BB-6C4C-463D-ADBC-1811654D14BB}.Release|x86.ActiveCfg = Release|x86
+		{B95EF5BB-6C4C-463D-ADBC-1811654D14BB}.Release|x86.Build.0 = Release|x86
+		{9C187DB5-DE5D-4F4A-89A4-0CE7FF3965FC}.Debug|x86.ActiveCfg = Debug|x86
+		{9C187DB5-DE5D-4F4A-89A4-0CE7FF3965FC}.Debug|x86.Build.0 = Debug|x86
+		{9C187DB5-DE5D-4F4A-89A4-0CE7FF3965FC}.Release|x86.ActiveCfg = Release|x86
+		{9C187DB5-DE5D-4F4A-89A4-0CE7FF3965FC}.Release|x86.Build.0 = Release|x86
+		{039CED31-B9D2-46F0-8FE3-93D2A26EC48A}.Debug|x86.ActiveCfg = Debug|x86
+		{039CED31-B9D2-46F0-8FE3-93D2A26EC48A}.Debug|x86.Build.0 = Debug|x86
+		{039CED31-B9D2-46F0-8FE3-93D2A26EC48A}.Release|x86.ActiveCfg = Release|x86
+		{039CED31-B9D2-46F0-8FE3-93D2A26EC48A}.Release|x86.Build.0 = Release|x86
+		{88C160B6-58F0-4384-BE62-39D31A8C5287}.Debug|x86.ActiveCfg = Debug|x86
+		{88C160B6-58F0-4384-BE62-39D31A8C5287}.Debug|x86.Build.0 = Debug|x86
+		{88C160B6-58F0-4384-BE62-39D31A8C5287}.Release|x86.ActiveCfg = Release|x86
+		{88C160B6-58F0-4384-BE62-39D31A8C5287}.Release|x86.Build.0 = Release|x86
+		{CBB3877C-219F-4CB2-A907-9A28F97CDDC7}.Debug|x86.ActiveCfg = Debug|x86
+		{CBB3877C-219F-4CB2-A907-9A28F97CDDC7}.Debug|x86.Build.0 = Debug|x86
+		{CBB3877C-219F-4CB2-A907-9A28F97CDDC7}.Release|x86.ActiveCfg = Release|x86
+		{CBB3877C-219F-4CB2-A907-9A28F97CDDC7}.Release|x86.Build.0 = Release|x86
+		{BDDE7D0B-505E-4E97-B4E8-F467283376D7}.Debug|x86.ActiveCfg = Debug|x86
+		{BDDE7D0B-505E-4E97-B4E8-F467283376D7}.Debug|x86.Build.0 = Debug|x86
+		{BDDE7D0B-505E-4E97-B4E8-F467283376D7}.Release|x86.ActiveCfg = Release|x86
+		{BDDE7D0B-505E-4E97-B4E8-F467283376D7}.Release|x86.Build.0 = Release|x86
+		{BFA40A83-C658-4442-90E7-49DC5FCDE2C9}.Debug|x86.ActiveCfg = Debug|x86
+		{BFA40A83-C658-4442-90E7-49DC5FCDE2C9}.Debug|x86.Build.0 = Debug|x86
+		{BFA40A83-C658-4442-90E7-49DC5FCDE2C9}.Release|x86.ActiveCfg = Release|x86
+		{BFA40A83-C658-4442-90E7-49DC5FCDE2C9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

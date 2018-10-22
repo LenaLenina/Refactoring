@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2018-01-09T17:03:18" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;8fb5c818-09c6-439c-85f7-5f51402c767a&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring&quot; -  (Package)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::ChildrensPrice&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::ChildrensPrice::ChildrensPrice&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::ChildrensPrice::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::ChildrensPrice::GetCharge::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::ChildrensPrice::GetPriceCode&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::Customer&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::Customer::name&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::GetTotalCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::GetTotalFrequentRenterPoints&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::HtmlStatement&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::name&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::Name&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::rentals&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::Rentals&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Customer::Statement&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::CHILDRENS&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::GetCharge::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::GetFrequentRenterPoints&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::GetFrequentRenterPoints::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::Movie&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::Movie::priceCode&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::Movie::title&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::NEW_RELEASE&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::price&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::priceCode&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::PriceCode&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::REGULAR&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::title&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Movie::Title&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::GetCharge::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::GetFrequentRenterPoints&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::GetFrequentRenterPoints::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::GetPriceCode&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::NewReleasePrice::NewReleasePrice&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::GetCharge::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::GetFrequentRenterPoints&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::GetFrequentRenterPoints::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::GetPriceCode&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Price::Price&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Program&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Program::Main&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Program::Program&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::RegularPrice&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::RegularPrice::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::RegularPrice::GetCharge::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::RegularPrice::GetPriceCode&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::RegularPrice::RegularPrice&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental&quot; -  (Class)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::daysRented&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::DaysRented&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::GetCharge&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::GetFrequentRenterPoints&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::movie&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::Movie&quot; -  (Property)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::Rental&quot; -  (Operation)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::Rental::daysRented&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::Refactoring::Rental::Rental::movie&quot; -  (Parameter)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System&quot; -  (Package)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System::Collections&quot; -  (Package)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System::Collections::Generic&quot; -  (Package)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System::Collections::Generic::List&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System::Collections::Generic::List&lt;Rental‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingRefactoring::System::Double&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingRefactoring::Refactoring::NewReleasePrice в ModelingRefactoring::Refactoring::Price (Generalization)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingRefactoring::Refactoring::RegularPrice в ModelingRefactoring::Refactoring::Price (Generalization)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingRefactoring::Refactoring::Rental в ModelingRefactoring::Refactoring::Movie (Association)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingRefactoring::Refactoring::ChildrensPrice в ModelingRefactoring::Refactoring::Price (Generalization)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingRefactoring::Refactoring::Customer в ModelingRefactoring::Refactoring::Rental (Association)" />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="High" Text="Полностью реконструировано (8) типов." />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="High" Text="Частично реконструировано (3) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2018-01-09T17:03:23" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>
