@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 // Split Temporary Variable (Расщепление временной переменной). 142 стр.
 
@@ -42,16 +42,17 @@ namespace SplitTemporaryVariable
 
         private Roots FindRoots()
         {
-            Roots roots = new Roots();
-            double root;
+            return new Roots(GetFirstRoot(), GetSecondRoot());
+        }
 
-            root = (-b + Math.Sqrt(GetDiscriminant())) / (2 * a);
-            roots.firstRoot = root;
+        private double GetFirstRoot()
+        {
+            return (-b + Math.Sqrt(GetDiscriminant())) / (2 * a);
+        }
 
-            root = (-b - Math.Sqrt(GetDiscriminant())) / (2 * a);
-            roots.secondRoot = root;
-
-            return roots;
+        private double GetSecondRoot()
+        {
+            return (-b - Math.Sqrt(GetDiscriminant())) / (2 * a);
         }
 
         public double GetDiscriminant()
